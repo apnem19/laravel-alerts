@@ -1,0 +1,31 @@
+{
+    "name": "apnem19/laravel-alerts",
+    "description": "Easy alerts with Laravel & Vue.js",
+    "authors": [
+        {
+            "name": "Simon Depelchin",
+            "email": "simon@webartisan.be"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~11.38.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Apnem19\\Alerts": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Apnem19\\Alerts\\AlertsServiceProvider"
+            ],
+            "aliases": {
+                "Alert": "Apnem19\\Alerts\\AlertFacade"
+            }
+        }
+    }
+}
