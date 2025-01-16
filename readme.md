@@ -9,7 +9,7 @@ This package offers a Tailwind CSS & Vue.js optimized notifications setup for yo
 You can install the package via composer:
 
 ``` bash
-composer require depsimon/laravel-alerts
+composer require apnem19/laravel-alerts
 ```
 
 ## Usage within Laravel
